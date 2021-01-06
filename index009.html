@@ -373,11 +373,35 @@
             
             </div>   
             
+            <script>
+                 $(document).ready(function(){
+                    var size = $('#wrap').width();
+                    if (size>800) {
+                            $(".portfolio_btn").colorbox({iframe:true, innerWidth:800, innerHeight:450});
+                    } else if (size <=800){                               
+                              $(".portfolio_btn").colorbox({iframe:true, innerWidth:400, innerHeight:225});
+                    }
+                    $(window).resize(function(){
+                        var size = $('#wrap').width();
+                        if (size>800) {
+                                $(".portfolio_btn").colorbox({iframe:true, innerWidth:800, innerHeight:450});
+                        } else if (size <=800){                               
+                                  $(".portfolio_btn").colorbox({iframe:true, innerWidth:400, innerHeight:225});
+                        }
+                  });
+                     
+                    
+                     
+                     });
+                
+            
+            </script>
+            
             
             <script>
                 $(document).ready(function(){
                     
-                     $(".portfolio_btn").colorbox({iframe:true, innerWidth:800, innerHeight:450});
+                     
                     
                      $(".sub_pic1").click(function(){
                          $("#portfolio1_leftbox > #portfolio_picbox > div").css('opacity','100%')
