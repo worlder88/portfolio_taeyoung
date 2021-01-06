@@ -376,24 +376,28 @@
             <script>
                  $(document).ready(function(){
                     var size = $('#wrap').width();
-                    if (size>800) {
-                            $(".portfolio_btn").colorbox({iframe:true, innerWidth:800, innerHeight:450});
-                    } else if (size <=800){                               
-                              $(".portfolio_btn").colorbox({iframe:true, innerWidth:400, innerHeight:225});
-                    }
+                    if (size > 767) {
+                            $(".portfolio_btn").colorbox({iframe:true, innerWidth:767, innerHeight:431});
+                    } else if (415 < size <=766){                               
+                              $(".portfolio_btn").colorbox({iframe:true, innerWidth:350, innerHeight:197});
+                    } else if (size <= 414){                               
+                                  $(".portfolio_btn").colorbox({iframe:true, innerWidth:250, innerHeight:140});
+                    };
+                     
                     $(window).resize(function(){
                         var size = $('#wrap').width();
-                        if (size>800) {
-                                $(".portfolio_btn").colorbox({iframe:true, innerWidth:800, innerHeight:450});
-                        } else if (size <=800){                               
-                                  $(".portfolio_btn").colorbox({iframe:true, innerWidth:400, innerHeight:225});
-                        }
-                  });
+                        if (size>767) {
+                                $(".portfolio_btn").colorbox({iframe:true, innerWidth:767, innerHeight:431});
+                        } else if (415 < size <=766){                               
+                                  $(".portfolio_btn").colorbox({iframe:true, innerWidth:350, innerHeight:197});
+                        } else if (size <= 414){                               
+                                  $(".portfolio_btn").colorbox({iframe:true, innerWidth:250, innerHeight:140});
+                  };
                      
                     
                      
                      });
-                
+                 });
             
             </script>
             
