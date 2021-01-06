@@ -7,14 +7,76 @@
     <meta name="viewport"  content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="css009/reset009.css">
     <link rel="stylesheet" href="css009/index009.css">
+    <link rel="stylesheet" href="css009/colorbox.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d450b0e232.js" crossorigin="anonymous"></script>
     <script src="js009/jquery-3.5.1.min.js"></script>
     <script src="js009/jquery.mousewheel.min.js"></script>
+    <script src="js009/jquery.colorbox-min.js"></script>
     <script src="js009/swiper.min.js"></script>
     
 </head>
+
+<script>
+        $(document).ready(function(){
+
+            
+            // 메뉴를 클릭시 해당 페이지로 이동.
+            var check =  10;
+            $("#gnb li").click(function(e){
+                e.preventDefault();
+                
+                var ht = $(window).height();
+                var i = $(this).index();
+                
+                check =i;
+                var top = i*ht;
+                
+                $("html,body").stop().animate({scrollTop:top},1000);
+                $("#gnb li").removeClass();
+                $("#gnb li").eq(i).addClass("on");
+            });
+            
+            $("#main_display, #profile_box, #skill_wrap, #portfolio1_wrap").mousewheel(function(e,d){
+                if(d>0){
+                try {
+                var prev = $(this).prev().offset().top;
+                    }catch(e){return false;}
+                $("html,body").stop().animate({"scrollTop":prev},1000);
+            } else if (d<0){
+                try{
+                var next = $(this).next().offset().top;
+                    }catch(e){return false;}
+                $("html,body").stop().animate({"scrollTop":next},1000);
+            }
+            });
+            $(window).scroll(function(){
+               var ht =$(window).height();
+                var scroll =$(window).scrollTop()+1;
+                if (check == 10) {
+                if(scroll>ht*0 && scroll<ht*1){
+                    $("#gnb li").removeClass();
+                    $("#gnb li").eq(0).addClass("on");
+                }
+                if(scroll>ht*1 && scroll<ht*2){
+                    $("#gnb li").removeClass();
+                    $("#gnb li").eq(1).addClass("on");
+                }
+                if(scroll>ht*2 && scroll<ht*3){
+                    $("#gnb li").removeClass();
+                    $("#gnb li").eq(2).addClass("on");
+                }
+                if(scroll>ht*3 && scroll<ht*4){
+                    $("#gnb li").removeClass();
+                    $("#gnb li").eq(3).addClass("on");
+                }
+                }
+            });
+        });
+
+	</script>
+
 <body>
     <div id="wrap">
        <div id="header" class="clear">
@@ -23,10 +85,10 @@
            </div>
            <div id="top_menu">
                <ul id="gnb">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">PROFILE</a></li>
-                    <li><a href="#">SKILLS</a></li>
-                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="main_display">HOME</a></li>
+                    <li><a href="#profile_box">PROFILE</a></li>
+                    <li><a href="#skill_wrap">SKILLS</a></li>
+                    <li><a href="#portfolio1_wrap">PORTFOLIO</a></li>
                </ul>
            </div>
        </div>
@@ -57,6 +119,7 @@
            </div>
            
            <div id="profile_box" >
+              <div id="profile_inner">
               <div id="left_box">
                   <h3 class="profile_text">PROFILE</h3>
                   <div id="photo_outer">
@@ -126,7 +189,7 @@
                       </div>
                   </div>
               </div>
-               
+             </div> 
            </div>
            
            <div id="skill_wrap">
@@ -141,9 +204,9 @@
                             <h3>Photoshop/Illustrator</h3>
                             <div class="skill_text_box">
                                 <ul>
-                                    <li><i class="fas fa-check"></i>누끼따기</li>
-                                    <li><i class="fas fa-check"></i>색보정</li>
-                                    <li><i class="fas fa-check"></i>brah brah</li>
+                                    <li><i class="fas fa-check"></i> 포토샵과 일러스트레이터의 기본적인 기능 숙지</li>
+                                    <li><i class="fas fa-check"></i> 셀렉트 & 마스크 툴을 활용한 인물, 배경 분리 </li>
+                                    <li><i class="fas fa-check"></i> 각종 이펙트와 블렌드 모드를 활용한 이미지 합성 </li>
                                 </ul>
                             </div>
                             <div class="skill_graph_box">
@@ -158,9 +221,9 @@
                             <h3>Premiere Pro</h3>
                             <div class="skill_text_box">
                                 <ul>
-                                    <li><i class="fas fa-check"></i></li>
-                                    <li><i class="fas fa-check"></i></li>
-                                    <li><i class="fas fa-check"></i></li>
+                                    <li><i class="fas fa-check"></i> 트랙매트, 어저스트먼트 레이어등 기본 개념 숙지</li>
+                                    <li><i class="fas fa-check"></i> 컷편집을 통한 영상제작 가능</li>
+                                    <li><i class="fas fa-check"></i> 센스있는 자막효과 적용 가능</li>
                                 </ul>
                             </div>
                             <div class="skill_graph_box">
@@ -175,9 +238,9 @@
                             <h3>After Effect</h3>
                             <div class="skill_text_box">
                                 <ul>
-                                    <li><i class="fas fa-check"></i></li>
-                                    <li><i class="fas fa-check"></i></li>
-                                    <li><i class="fas fa-check"></i></li>
+                                    <li><i class="fas fa-check"></i> 키프레임을 이용한 동적인 영상 제작가능</li>
+                                    <li><i class="fas fa-check"></i> 각종 플러그인을 적용하여 다양한 효과를 적용 가능</li>
+                                    <li><i class="fas fa-check"></i> 마스크, 매트를 활용한 합성영상 제작 가능</li>
                                 </ul>
                             </div>
                             <div class="skill_graph_box">
@@ -197,9 +260,10 @@
                             <h3>HTML5/CSS3</h3>
                             <div class="skill_text_box">
                                 <ul>
-                                    <li><i class="fas fa-check"></i></li>
-                                    <li><i class="fas fa-check"></i></li>
-                                    <li><i class="fas fa-check"></i></li>
+                                    <li><i class="fas fa-check"></i> 웹 표준성과 접근성을 준수한 코딩 가능</li>
+                                    <li><i class="fas fa-check"></i> CSS를 활용한 다양한 레이아웃 구현 </li>
+                                    <li><i class="fas fa-check"></i> 미디어 쿼리를 활용한 반응형 웹페이지 제작가능</li>
+                                    <li><i class="fas fa-check"></i> 크로스 브라우징 구현 가능</li>
                                 </ul>
                             </div>
                             <div class="skill_graph_box">
@@ -214,9 +278,9 @@
                             <h3>jQuery/Javascript</h3>
                             <div class="skill_text_box">
                                 <ul>
-                                    <li><i class="fas fa-check"></i></li>
-                                    <li><i class="fas fa-check"></i></li>
-                                    <li><i class="fas fa-check"></i></li>
+                                    <li><i class="fas fa-check"></i> 제어문, 함수, 객체 이벤트 등 숙지</li>
+                                    <li><i class="fas fa-check"></i> 동적인 웹페이지 를 구현하기 위한 코딩능력</li>
+                                    <li><i class="fas fa-check"></i> 제이쿼리 플러그인 적용 가능 (swiper, fullpage)</li>
                                 </ul>
                             </div>
                             <div class="skill_graph_box">
@@ -231,13 +295,16 @@
                              <h3>Office</h3>
                              <div class="skill_text_box">
                                 <ul>
-                                    <li><i class="fas fa-check"></i></li>
-                                    <li><i class="fas fa-check"></i></li>
-                                    <li><i class="fas fa-check"></i></li>
+                                    <li><i class="fas fa-check"></i> MS Word(중)</li>
+                                    <li><i class="fas fa-check"></i> MS Powerpoint(중)</li>
+                                    <li><i class="fas fa-check"></i> MS Excel(중)</li>
+                                    <li><i class="fas fa-check"></i> 한글 (상)</li>
                                 </ul>
                             </div>
                             <div class="mobile_text_box">
-                               오피스
+                               <div>
+                                   <p>MS Word(중)</p>  <p>MS Powerpoint(중)</p> <p>MS Excel(중)</p>  <p>한글 (상)</p>
+                               </div>
                             </div>
                          </div>
                     </div>
@@ -245,19 +312,19 @@
             </div>
             
             <div id="portfolio1_wrap">
-                
+                <div id="portfolio1_inner">
                 
                 <div id="portfolio1_leftbox">
                   
                   <h2 class="portfolio1_title">Portfolio 01</h2>
                     <div id="portfolio_picbox">
                         <div class="main_pic"></div>
-                        <div class="sub_pic1"></div>
-                        <div class="sub_pic2"></div>
-                        <div class="sub_pic3"></div>
-                        <div class="sub_pic4"></div>
-                        <div class="sub_pic5"></div>
-                        <div class="sub_pic6"></div>
+                        <div class="sub_pic1"><a href="images009/01luda.png"></a></div>
+                        <div class="sub_pic2"><a href="images009/02yeoruem.png"></a></div>
+                        <div class="sub_pic3"><a href="images009/03subin.png"></a></div>
+                        <div class="sub_pic4"><a href="images009/04dayoung.png"></a></div>
+                        <div class="sub_pic5"><a href="images009/05chocome.png"></a></div>
+                        <div class="sub_pic6"><a href="images009/06ending.png"></a></div>
                     </div>
                 </div>
                 
@@ -270,10 +337,12 @@
                       </li>
                       <li class="portfolio_sec">
                           <p>설명</p>
-                          <span>우주소녀의 유닛 그룹 '우주소녀 쪼꼬미'의<br> 
-                          프로모션 영상입니다. <br> 
-                          상큼발랄하고 신나는 우주소녀 쪼꼬미의 노래 「흥칫뿡」의 분위기에 맞추어 모션작업을 하였습니다. <br>
-                          영상의 전반적인 색상과 컨셉은 멤버들이 입고있는 독특한 의상에 맞추어 네온, 비비드로 펑키한 느낌으로 설정하였습니다.  </span>
+                          <span>우주소녀의 유닛 그룹 '우주소녀 쪼꼬미'의
+                          프로모션 영상입니다. 
+                          상큼발랄하고 신나는 우주소녀 쪼꼬미의 노래 
+                          「흥칫뿡」의 분위기에 맞추어 모션작업을 하였습니다. <br>
+                          영상의 전반적인 색상과 컨셉은 멤버들이 입고있는 
+                          독특한 의상에 맞추어 네온, 비비드로 펑키한 느낌으로 설정하였습니다.  </span>
                       </li>
                       <li class="portfolio_sec">
                           <p>작업툴</p>
@@ -286,18 +355,80 @@
                       </li>
                    </ul>
                    
-                   <button>CLICK TO PLAY</button>
+                   
+<!--
+                <iframe src="https://player.vimeo.com/video/497449500?autoplay=1&color=ffffff" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/497449500">[과제] 아이돌 프로모션</a> from <a href="https://vimeo.com/user129174691">Tae-young Lim</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+-->
+                   
+                   
+                   
+                   <a href="https://player.vimeo.com/video/497449500?autoplay=1&color=ffffff" class="portfolio_btn"><button >CLICK TO PLAY</button></a>
                     
                 </div>
                 
             </div>
+            <div id="footer">
+                <p>Copyrightⓒ2020. Taeyoung Lim All rights reserved</p>
             
+            </div>   
+            
+            
+            <script>
+                $(document).ready(function(){
+                    
+                     $(".portfolio_btn").colorbox({iframe:true, innerWidth:800, innerHeight:450});
+                    
+                     $(".sub_pic1").click(function(){
+                         $("#portfolio1_leftbox > #portfolio_picbox > div").css('opacity','100%')
+                         $("#portfolio1_leftbox > #portfolio_picbox > .main_pic").css({'background-image':'url(images009/01luda.png)'});
+                         $(this).css('opacity','50%');
+                     });           
+                    
+                     $(".sub_pic2").click(function(){
+                         $("#portfolio1_leftbox > #portfolio_picbox > div").css('opacity','100%')
+                         $("#portfolio1_leftbox > #portfolio_picbox > .main_pic").css({'background-image':'url(images009/02yeoruem.png)'});
+                         $(this).css('opacity','50%');
+                     });             
+                    
+                     $(".sub_pic3").click(function(){
+                         $("#portfolio1_leftbox > #portfolio_picbox > div").css('opacity','100%')
+                         $("#portfolio1_leftbox > #portfolio_picbox > .main_pic").css({'background-image':'url(images009/03subin.png)'});
+                         $(this).css('opacity','50%');
+                     });           
+                    
+                     $(".sub_pic4").click(function(){
+                         
+                        $("#portfolio1_leftbox > #portfolio_picbox > div").css('opacity','100%')
+                         $("#portfolio1_leftbox > #portfolio_picbox > .main_pic").css({'background-image':'url(images009/04dayoung.png)'});
+                         $(this).css('opacity','50%');
+                     });           
+                    
+                     $(".sub_pic5").click(function(){
+                         $("#portfolio1_leftbox > #portfolio_picbox > div").css('opacity','100%')
+                         $("#portfolio1_leftbox > #portfolio_picbox > .main_pic").css({'background-image':'url(images009/05chocome.png)'});
+                         $(this).css('opacity','50%');
+                     });           
+                    
+                     $(".sub_pic6").click(function(){
+                         $("#portfolio1_leftbox > #portfolio_picbox > div").css('opacity','100%')
+                         $("#portfolio1_leftbox > #portfolio_picbox > .main_pic").css({'background-image':'url(images009/06ending.png)'});
+                         $(this).css('opacity','50%');
+                     });           
+                                  });
+            
+            </script>
+            
+         </div>
     
        </div>
-           
+        
+        
+                 
   </div>
         
    
+           
     
 </body>
 </html>
