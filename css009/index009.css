@@ -189,33 +189,33 @@
 #portfolio_wrap > #portfolio4_inner { position: relative; width: 100%; height: 100vh;  }
 
 
-.portfolio_leftbox {width: 46%; background:  height: 87vh; position: absolute; top: 7vh; left: 6vh; overflow: hidden; clear: both;}
+.portfolio_leftbox {width: 46%; background:  height: 87vh; position: absolute; top: 18vh; left: 6vh; overflow: hidden; clear: both;}
 
 
-#portfolio_wrap > ul > li {width: 180px; height: 40px; line-height: 40px; font-size: 18px; text-align: center; background:#2b82a0; color:#fff;   margin-top: 30px; margin-bottom: 50px; display: inline-block; position: relative; top: 70px; left: 52px; cursor: pointer; font-weight: bold; border-radius: 10px 10px 0px 0px; z-index: 100}
-.portfolio_title1 {}
-.portfolio_title2 {}
-.portfolio_title3 {}
-.portfolio_title4 {}
+#portfolio_wrap > ul > li {width: 160px; height: 40px; line-height: 40px; font-size: 16px; text-align: center; color:#fff;   margin-top: 30px; margin-bottom: 50px; display: inline-block; position: relative; top: 70px; left: 52px; cursor: pointer; font-weight: bold; border-radius: 10px 10px 0px 0px; z-index: 100}
+.portfolio_title1 {background:#28B8B6; }
+.portfolio_title2 {background:#2b82a0;}
+.portfolio_title3 {background:#2b82a0;}
+.portfolio_title4 {background:#2b82a0;}
 
 #portfolio_wrap > ul > hr {position: relative; top: 20px; border: 1px solid #2b82a0; }
 
+.portfolio_leftbox > div > div {border: 2px solid  gainsboro;  }
 
-
-.portfolio_leftbox > .portfolio_picbox {display: grid; grid-template-columns: 32% 32% 32%; grid-auto-rows: 110px 110px 110px 110px 110px; grid-column-gap: 6px; grid-row-gap: 6px; max-width: 530px; }
+.portfolio_leftbox > .portfolio_picbox {display: grid; grid-template-columns: 32% 32% 32%; grid-auto-rows: 110px 110px 90px 90px 90px; grid-column-gap: 0px; grid-row-gap: 0px; max-width: 498px; }
 
 .portfolio_leftbox > .portfolio_picbox > div:first-child {cursor:default;}
 .portfolio_leftbox > .portfolio_picbox > div {cursor: pointer;}
 
 .portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 4;  background-image: url(../images009/01luda.png);
-    background-repeat: no-repeat; background-position: center; background-size: contain;}
+    background-repeat: no-repeat; background-position: center; background-size: contain; background-color: #fff; }
 
-.portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/01luda.png)no-repeat center; background-size: contain; }
-.portfolio_leftbox >  .portfolio_picbox > .sub_pic2 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/02yeoruem.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/03subin.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/04dayoung.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/05chocome.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/06ending.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/01luda.png)no-repeat center; background-size: contain; background-color: gainsboro; }
+.portfolio_leftbox >  .portfolio_picbox > .sub_pic2 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/02yeoruem.png)no-repeat center; background-size: contain; background-color: gainsboro;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/03subin.png)no-repeat center; background-size: contain;  background-color: gainsboro;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/04dayoung.png)no-repeat center; background-size: contain;  background-color: gainsboro;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/05chocome.png)no-repeat center; background-size: contain;  background-color: gainsboro;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/06ending.png)no-repeat center; background-size: contain;  background-color: gainsboro;}
 
 
 
@@ -226,21 +226,21 @@
 
 .portfolio_rightbox {width: 43%; height: 89vh;  position: absolute; top: -8vh; left: 55%; overflow: hidden;  }
 
-.portfolio_rightbox > .portfolio_info_title {position: absolute; top: 190px; width: 90%; height: 35px; text-align: right; font-size: 18px; border-bottom: 2px solid #2b82a0; color: #2b82a0; }
+.portfolio_rightbox > .portfolio_info_title {position: absolute; top: 240px; width: 90%; height: 35px; text-align: right; font-size: 18px; border-bottom: 2px solid #2b82a0; color: #2b82a0; }
 
 
 .portfolio_rightbox > .portfolio_info { width: 90%; margin-top: 40px; padding-left: 80px}
-.portfolio_rightbox > .portfolio_info > li {position: absolute; width: 400px; }
-.portfolio_rightbox > .portfolio_info > li:first-child {top: 280px; left: 70px; }
-.portfolio_rightbox > .portfolio_info > li:nth-child(2) {top: 350px; left: 70px; }
-.portfolio_rightbox > .portfolio_info > li:nth-child(3) {top: 500px; left: 70px; }
+.portfolio_rightbox > .portfolio_info > li {position: absolute; width: 330px; }
+.portfolio_rightbox > .portfolio_info > li:first-child {top: 295px; left: 70px; }
+.portfolio_rightbox > .portfolio_info > li:nth-child(2) {top: 365px; left: 70px; }
+.portfolio_rightbox > .portfolio_info > li:nth-child(3) {top: 535px; left: 70px; }
 
 
 .portfolio_rightbox > .portfolio_info > li > p {font-weight: bold; font-size: 16px; width: 180px;  border-left: 5px solid #2b82a0; text-indent: 10px; margin-bottom: 5px; }
 
-.portfolio_rightbox > .portfolio_info > li > span {font-size: 14px;}
+.portfolio_rightbox > .portfolio_info > li > span {font-size: 13px;}
 
-.portfolio_rightbox > a > button {position: absolute; top: 653px; left: 50px; display: block; border: none; width:450px; height: 45px;  border-radius: 10px; font-size: 18px; color: white; background: #2b82a0; cursor: pointer}
+.portfolio_rightbox > a > button {position: absolute; top: 678px; left: 50px; display: block; border: none; width:85%; height: 45px;  border-radius: 10px; font-size: 18px; color: white; background: #2b82a0; cursor: pointer}
 
 .portfolio_rightbox > a> button:hover {background:#28B8B6 }
 
@@ -252,17 +252,18 @@
 
 #portfolio_wrap > #portfolio2_inner { position: relative; width: 90%; height: 100vh; margin: 0 auto;  }
 
-#portfolio2_inner > div > div > div {border: 2px solid black;}
 
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 4;  background-image: url(../images009/206_coupang_ending.png);
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox {grid-row-gap: 0px;grid-column-gap: 0px;}
+
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .main_pic {   background-image: url(../images009/206_coupang_ending.png);
     background-repeat: no-repeat; background-position: center; background-size: contain;}
 
-#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/201coupang_intro.png)no-repeat center; background-size: contain; }
-#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic2 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/202_coupangplay.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/203_coupangplay_bike.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/204coupangplay_beer.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/205coupangplay_heart.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {     background: #aaa;background: url(../images009/201coupang_intro.png)no-repeat center; background-size: contain; }
+#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic2 { background: #aaa;background: url(../images009/202_coupangplay.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic3 {background: #aaa;background: url(../images009/203_coupangplay_bike.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic4 {background: #aaa;background: url(../images009/204coupangplay_beer.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic5 { background: #aaa;background: url(../images009/205coupangplay_heart.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 { background: #aaa;background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
 
 
 
@@ -462,49 +463,49 @@
     
     
     
-#portfolio_wrap > ul > li {width: 140px; height: 40px; line-height: 40px; font-size: 15px; text-align: center; background:#2b82a0; color:#fff;   margin-top: 30px; margin-bottom: 50px; display: inline-block; position: relative; top: 70px; left: 52px; cursor: pointer; font-weight: bold; border-radius: 10px 10px 0px 0px;}
+#portfolio_wrap > ul > li {width: 130px; height: 35px; line-height: 35px; font-size: 13px; text-align: center;  color:#fff;   margin-top: 30px; margin-bottom: 50px; display: inline-block; position: relative; top: 70px; left: 52px; cursor: pointer; font-weight: bold; border-radius: 10px 10px 0px 0px;}
 .portfolio_title1 {}
 .portfolio_title2 {}
 .portfolio_title3 {}
 .portfolio_title4 {}
     
 
-.portfolio_leftbox {width: 50%; background:  height: 87vh; position: absolute; top: 15vh; left: 0vh; }
+.portfolio_leftbox {width: 50%; height: 87vh; position: absolute; top: 13vh; left: 0vh; }
 
 
-.portfolio_leftbox > .portfolio_picbox {width: 100%; display: grid; grid-template-columns: 32% 32% 32%; grid-auto-rows: 75px 75px 75px 90px 90px; grid-column-gap: 6px; grid-row-gap: 6px; max-width: 380px; vertical-align: }
+.portfolio_leftbox > .portfolio_picbox {width: 100%; display: grid; grid-template-columns: 50% 50%; grid-auto-rows: 115px 115px 98px 98px 98px; grid-column-gap: 0px; grid-row-gap: 0px; max-width: 346px; vertical-align: }
 
 .portfolio_leftbox > .portfolio_picbox > div:first-child {cursor:default;}
 .portfolio_leftbox > .portfolio_picbox > div {cursor: pointer;}
 
-.portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 4;  background-image: url(../images009/01luda.png);
+.portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 3; grid-column-start: 1; grid-column-end: 4;  background-image: url(../images009/01luda.png);
     background-repeat: no-repeat; background-position: center; background-size: contain;}
 
-.portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/01luda.png)no-repeat center; background-size: contain; }
-.portfolio_leftbox >  .portfolio_picbox > .sub_pic2 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/02yeoruem.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/03subin.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/04dayoung.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/05chocome.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/06ending.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 3; grid-row-end: 4; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/01luda.png)no-repeat center; background-size: contain; }
+.portfolio_leftbox >  .portfolio_picbox > .sub_pic2 {grid-row-start: 3; grid-row-end: 4; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/02yeoruem.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/03subin.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/04dayoung.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/05chocome.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/06ending.png)no-repeat center; background-size: contain;}
 
 
 .portfolio_rightbox {width: 48%; height: 80vh;  position: absolute; top: -3vh; left: 51%; overflow: hidden;}
 
-.portfolio_rightbox > .portfolio_info_title {width: 90%; height: 35px; text-align: right; font-size: 17px; border-bottom: 2px solid #2b82a0; color: #2b82a0;  margin-left: 30px; top: 100px; }
+.portfolio_rightbox > .portfolio_info_title {width: 90%; height: 35px; text-align: right; font-size: 17px; border-bottom: 2px solid #2b82a0; color: #2b82a0;  margin-left: 30px; top: 140px; }
 
 
 .portfolio_rightbox > .portfolio_info { width: 90%; margin-top: 20px; padding-left: 80px}
 .portfolio_rightbox > .portfolio_info > li {position: absolute; width: 300px;}
-.portfolio_rightbox > .portfolio_info > li:first-child {top: 180px; left: 40px; }
-.portfolio_rightbox > .portfolio_info > li:nth-child(2) {top: 260px; left: 40px; width: 260px; }
-.portfolio_rightbox > .portfolio_info > li:nth-child(3) {top: 480px; left: 40px; }
+.portfolio_rightbox > .portfolio_info > li:first-child {top: 195px; left: 40px; }
+.portfolio_rightbox > .portfolio_info > li:nth-child(2) {top: 265px; left: 40px; width: 260px; }
+.portfolio_rightbox > .portfolio_info > li:nth-child(3) {top: 460px; left: 40px; }
 
 
-.portfolio_rightbox > .portfolio_info > li > p {font-weight: bold; font-size: 15px; width: 180px;  border-left: 5px solid #2b82a0; text-indent: 10px; margin-bottom: 10px; }
+.portfolio_rightbox > .portfolio_info > li > p {font-weight: bold; font-size: 14px; width: 180px;  border-left: 5px solid #2b82a0; text-indent: 10px; margin-bottom: 10px; }
 
-.portfolio_rightbox > .portfolio_info > li > span {font-size: 13px;}
+.portfolio_rightbox > .portfolio_info > li > span {font-size: 12px;}
 
-.portfolio_rightbox > a > button {position: absolute; top: 620px; left: 40px; display: block; border: none; width:80%; height: 40px;  border-radius: 10px; font-size: 18px; color: white; background: #2b82a0; cursor: pointer}
+.portfolio_rightbox > a > button {position: absolute; top: 626px; left: 40px; display: block; border: none; width:85%; height: 40px;  border-radius: 10px; font-size: 18px; color: white; background: #2b82a0; cursor: pointer}
 
 .portfolio_rightbox > a> button:hover {transform: scale(1.01)}
 
@@ -516,26 +517,21 @@
 
 #portfolio_wrap > #portfolio2_inner { position: relative; width: 90%; height: 100vh; margin: 0 auto;  }
 
-#portfolio2_inner > div > div > div {border: 2px solid black;}
+#portfolio2_inner > div > div > div {}
 
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 4;  background-image: url(../images009/206_coupang_ending.png);
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .main_pic {  background-image: url(../images009/206_coupang_ending.png);
     background-repeat: no-repeat; background-position: center; background-size: contain;}
 
-#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/201coupang_intro.png)no-repeat center; background-size: contain; }
-#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic2 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/202_coupangplay.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/203_coupangplay_bike.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/204coupangplay_beer.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/205coupangplay_heart.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
-    
-    
-
-    
-    
-    
-
-    
-
+#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {  background: #aaa;background: url(../images009/201coupang_intro.png)no-repeat center; background-size: contain; } 
+#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic2 {    
+ background: #aaa; background: url(../images009/202_coupangplay.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic3 
+{ background: #aaa;background: url(../images009/203_coupangplay_bike.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic4 
+{ background: #aaa;background: url(../images009/204coupangplay_beer.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic5 
+{ background: #aaa;background: url(../images009/205coupangplay_heart.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 {background: #aaa;background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
     
     
     
@@ -728,7 +724,7 @@
 #portfolio_wrap { position: relative; width: 100%; ; clear: both; overflow: hidden; }
     
 
-#portfolio_wrap > ul > li {width: 100px; height: 40px; line-height: 40px; font-size: 12px; text-align: center; background:#2b82a0; color:#fff;   margin-top: 30px; margin-bottom: 50px; display: inline-block; position: relative; top: 30px; left: 32px; cursor: pointer; font-weight: bold; border-radius: 10px 10px 0px 0px;}
+#portfolio_wrap > ul > li {width: 100px; height: 30px; line-height: 30px; font-size: 11px; text-align: center; background:#2b82a0; color:#fff;   margin-top: 35px; margin-bottom: 50px; display: inline-block; position: relative; top: 30px; left: 32px; cursor: pointer; font-weight: bold; border-radius: 10px 10px 0px 0px;}
     
     #portfolio_wrap > ul > hr {top: -20px;}
 .portfolio_title1 {}
@@ -739,7 +735,7 @@
 .portfolio_leftbox {width: 90%;  height: 87vh; position: absolute; top: 0vh; left: 2vh; }
 
 
-.portfolio_leftbox > .portfolio_picbox {width: 100%; display: grid; grid-template-columns: 33.33% 33.33% 33.33%; grid-auto-rows: 70px 70px 70px 71px 71px; grid-column-gap: 1px; grid-row-gap: 6px; max-width: 384px; position: relative; left: 50%; transform: translateX(-50%);  }
+.portfolio_leftbox > .portfolio_picbox {width: 100%; display: grid; grid-template-columns: 33.33% 33.33% 33.33%; grid-auto-rows: 80px 80px 80px 75px 75px; grid-column-gap: 0; grid-row-gap: 0; max-width: 384px; position: relative; left: 50%; transform: translateX(-50%);  }
 
 .portfolio_leftbox > .portfolio_picbox > div:first-child {cursor:default;}
 .portfolio_leftbox > .portfolio_picbox > div {cursor: pointer;}
@@ -757,7 +753,7 @@
 
 .portfolio_rightbox {width: 85%; height: 39vh; position: absolute; top: 43%; left: 50%; transform: translateX(-50%); overflow: hidden;}
 
-.portfolio_rightbox > .portfolio_info_title {width: 90%; height: 25px; text-align: left; font-size: 15px; border-bottom: 2px solid #2b82a0; color: #2b82a0;  margin-left: 0px; top: 15px; }
+.portfolio_rightbox > .portfolio_info_title {width: 90%; height: 25px; text-align: left; font-size: 14px; border-bottom: 2px solid #2b82a0; color: #2b82a0;  margin-left: 0px; top: 15px; }
 
 
 .portfolio_rightbox > .portfolio_info { width: 90%; margin-top: 0px; padding-left: 30px}
@@ -1044,39 +1040,39 @@
     
     #portfolio_wrap > ul > hr {top: 15px;}
 
-.portfolio_leftbox {width: 100%;  height: 95vh; position: absolute; top: 5vh; left: 0; }
+.portfolio_leftbox {width: 100%;  height: 95vh; position: absolute; top: 4vh; left: 0; }
 
 
 
-.portfolio_leftbox > .portfolio_picbox {width: 100%; display: grid; grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;  grid-auto-rows: 56px 56px 56px 30px 30px;  grid-column-gap: 1px; grid-row-gap: 2px; max-width: 300px; position: relative; left: 50%; transform: translateX(-50%)}
+.portfolio_leftbox > .portfolio_picbox {width: 100%; display: grid; grid-template-columns: 33.33% 33.33% 33.33%;  grid-auto-rows: 65px 65px 65px 60px 60px;  grid-column-gap: 0px; grid-row-gap: 0px; max-width: 300px; position: relative; left: 50%; transform: translateX(-50%)}
 
-.portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 7;  background: url(../images009/01luda.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 4;  background: url(../images009/01luda.png)no-repeat center; background-size: contain;}
 
 .portfolio_leftbox > .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/01luda.png)no-repeat center; background-size: contain;}
 .portfolio_leftbox > .portfolio_picbox > .sub_pic2 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/02yeoruem.png)no-repeat center; background-size: contain;}
 .portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/03subin.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 4; grid-column-end: 5; background: #aaa;background: url(../images009/04dayoung.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 5; grid-column-end: 6; background: #aaa;background: url(../images009/05chocome.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 6; grid-column-end: 7; background: #aaa;background: url(../images009/06ending.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/04dayoung.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/05chocome.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/06ending.png)no-repeat center; background-size: contain;}
 
 
-.portfolio_rightbox {width: 85%; height: 46vh; position: absolute; top: 35%; left: 50%; transform: translateX(-50%); overflow: hidden;}
+.portfolio_rightbox {width: 85%; height: 46vh; position: absolute; top: 48%; left: 50%; transform: translateX(-50%); overflow: hidden;}
 
-.portfolio_rightbox > .portfolio_info_title {width: 90%; height: 25px; text-align: left; font-size: 14px; border-bottom: 2px solid #2b82a0; color: #2b82a0;  margin-left: 0px; top: 5px; }
+.portfolio_rightbox > .portfolio_info_title {width: 90%; height: 25px; text-align: left; font-size: 14px; border-bottom: 2px solid #2b82a0; color: #2b82a0;  margin-left: 10px; top: 40px; }
 
 
 .portfolio_rightbox > .portfolio_info { width: 90%; margin-top: 10px; padding-left: 30px; }
 .portfolio_rightbox > .portfolio_info > li {position: absolute; width: 130px; }
-.portfolio_rightbox > .portfolio_info > li:first-child {top: 40px; left: 0px; }
-.portfolio_rightbox > .portfolio_info > li:nth-child(2) {top: 70px; left:0px; }
-.portfolio_rightbox > .portfolio_info > li:nth-child(3) {top: 205px; left: 0px; }
+.portfolio_rightbox > .portfolio_info > li:first-child {top: 80px; left: 10px; }
+.portfolio_rightbox > .portfolio_info > li:nth-child(2) {top: 110px; left:10px; }
+.portfolio_rightbox > .portfolio_info > li:nth-child(3) {top: 260px; left: 10px; display: none;}
 
 
-.portfolio_rightbox > .portfolio_info > li > p {font-weight: bold; font-size: 13px; width: 100px;  border-left: 5px solid #2b82a0; text-indent: 10px; margin-bottom: 0px; }
+.portfolio_rightbox > .portfolio_info > li > p {font-weight: bold; font-size: 12px; width: 100px;  border-left: 5px solid #2b82a0; text-indent: 10px; margin-bottom: 0px; }
 
-.portfolio_rightbox > .portfolio_info > li > span { position: relative; left:114px; top: -20px; font-size: 11px; display: inline-block; width: 200px; }
+.portfolio_rightbox > .portfolio_info > li > span { position: relative; left:114px; top: -20px; font-size: 11px; display: inline-block; width: 180px; }
 
-.portfolio_rightbox > a> button {position: absolute; top: 290px; left: 20px; display: block; border: none; width:90%; height: 35px;  border-radius: 10px; font-size: 17px; color: white; background: #2b82a0; cursor: pointer}
+.portfolio_rightbox > a> button {position: absolute; top: 0px; left: 7px; display: block; border: none; width:94.7%; height: 30px;  border-radius: 7px; font-size: 13px; color: white; background: #2b82a0; cursor: pointer}
 
 .portfolio_rightbox > a > button:hover {transform: scale(1.01)}
 
@@ -1092,38 +1088,21 @@
 
 
 
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox {width: 90%; display: grid; grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;  grid-auto-rows: 60px 60px 60px 30px 30px; grid-column-gap: 1px; grid-row-gap: 2px; max-width: 400px; position: relative; left: 50%; transform: translateX(-50%)}
-
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 7;  background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
-
-#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/201coupang_intro.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic2 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/202_coupangplay.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/203_coupangplay_bike.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 4; grid-column-end: 5; background: #aaa;background: url(../images009/204coupangplay_beer.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 5; grid-column-end: 6; background: #aaa;background: url(../images009/205coupangplay_heart.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 6; grid-column-end: 7; background: #aaa;background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
 
 
-#portfolio2_inner .portfolio_rightbox {width: 85%; height: 46vh; position: absolute; top: 35%; left: 50%; transform: translateX(-50%); overflow: hidden;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .main_pic {   background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
 
-#portfolio2_inner .portfolio_rightbox > .portfolio_info_title {width: 90%; height: 25px; text-align: left; font-size: 14px; border-bottom: 2px solid #2b82a0; color: #2b82a0;  margin-left: 0px; top: 5px; }
+#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {;   background: #aaa;background: url(../images009/201coupang_intro.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic2 { background: #aaa;background: url(../images009/202_coupangplay.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic3 {background: #aaa;background: url(../images009/203_coupangplay_bike.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic4 { background: #aaa;background: url(../images009/204coupangplay_beer.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic5 { background: #aaa;background: url(../images009/205coupangplay_heart.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 { background: #aaa;background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
 
 
-#portfolio2_inner .portfolio_rightbox > .portfolio_info { width: 90%; margin-top: 0px; padding-left: 30px; }
-#portfolio2_inner .portfolio_rightbox > .portfolio_info > li {position: absolute; width: 130px; }
-#portfolio2_inner .portfolio_rightbox > .portfolio_info > li:first-child {top: 40px; left: 0px; }
-#portfolio2_inner .portfolio_rightbox > .portfolio_info > li:nth-child(2) {top: 70px; left:0px; }
-#portfolio2_inner .portfolio_rightbox > .portfolio_info > li:nth-child(3) {top: 205px; left: 0px; }
 
-#portfolio2_inner .portfolio_rightbox > .portfolio_info > li > p {font-weight: bold; font-size: 13px; width: 100px;  border-left: 5px solid #2b82a0; text-indent: 10px; margin-bottom: 0px; }
 
-#portfolio2_inner .portfolio_rightbox > .portfolio_info > li > span { position: relative; left:114px; top: -20px; font-size: 11px; display: inline-block; width: 200px; }
 
-#portfolio2_inner .portfolio_rightbox > a> button {position: absolute; top: 290px; left: 20px; display: block; border: none; width:90%; height: 35px;  border-radius: 10px; font-size: 17px; color: white; background: #2b82a0; cursor: pointer}
-
-#portfolio2_inner .portfolio_rightbox > a > button:hover {transform: scale(1.01)}
-
-#portfolio2_inner .portfolio_rightbox > a> button:focus { outline: none;}
 
     
 /*footer*/
@@ -1333,7 +1312,7 @@
 
 #portfolio_wrap { position: relative; width: 100%; height: 95vh; clear: both; overflow: hidden; }
     
-#portfolio_wrap > ul > li {width: 81px; height: 30px; line-height: 30px; font-size: 10px; text-align: center; background:#2b82a0; color:#fff;   margin-top: 0px; margin-bottom: 0px; display: inline-block; position: relative; top: 60px; left: 12px; cursor: pointer; font-weight: bold; border-radius: 10px 10px 0px 0px;}
+#portfolio_wrap > ul > li {width: 74px; height: 30px; line-height: 30px; font-size: 8px; text-align: center; background:#2b82a0; color:#fff;   margin-top: 0px; margin-bottom: 0px; display: inline-block; position: relative; top: 60px; left: 1%; cursor: pointer; font-weight: bold; border-radius: 10px 10px 0px 0px;}
     
 .portfolio_title1 {}
 .portfolio_title2 {}
@@ -1345,7 +1324,7 @@
 .portfolio_leftbox {width: 90%;  height: 57vh; position: absolute; top: 10vh; left: 2vh; }
 
 
-.portfolio_leftbox > .portfolio_picbox {width: 90%; display: grid; grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;  grid-auto-rows: 54px 54px 54px 30px 20px; grid-column-gap: 3px; grid-row-gap: 2px; max-width: 400px; position: relative; left: 50%; transform: translateX(-50%)}
+.portfolio_leftbox > .portfolio_picbox {width: 86%; display: grid; grid-template-columns: 33.33% 33.33% 33.33% ;  grid-auto-rows: 50px 50px 50px 50px 50px; grid-column-gap: 0px; grid-row-gap: 0px; max-width: 290px; position: relative; left: 50%; transform: translateX(-50%)}
     
 .portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 7;  background: url(../images009/01luda.png)no-repeat center; background-size: contain;}
     
@@ -1355,30 +1334,30 @@
     
 .portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/03subin.png)no-repeat center; background-size: contain;}
     
-.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 4; grid-column-end: 5; background: #aaa;background: url(../images009/04dayoung.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/04dayoung.png)no-repeat center; background-size: contain;}
     
-.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 5; grid-column-end: 6; background: #aaa;background: url(../images009/05chocome.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/05chocome.png)no-repeat center; background-size: contain;}
     
-.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 6; grid-column-end: 7; background: #aaa;background: url(../images009/06ending.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/06ending.png)no-repeat center; background-size: contain;}
 
 
-.portfolio_rightbox {width: 85%; height: 48vh; position: absolute; top: 42%; left: 50%; transform: translateX(-50%); overflow: hidden;}
+.portfolio_rightbox {width: 85%; height: 48vh; position: absolute; top: 48%; left: 50%; transform: translateX(-50%); overflow: hidden;}
 
-.portfolio_rightbox > .portfolio_info_title {width: 95%; height: 25px; text-align: left; font-size: 13px; border-bottom: 2px solid #2b82a0; color: #2b82a0;  margin-left: 0px; top: 0px; }
+.portfolio_rightbox > .portfolio_info_title {width: 95%; height: 23px; text-align: left; font-size: 12px; border-bottom: 2px solid #2b82a0; color: #2b82a0;  margin-left: 0px; top: 49px; }
 
 
 .portfolio_rightbox > .portfolio_info { width: 100%; margin-top: 0px; padding-left: 10px; }
 .portfolio_rightbox > .portfolio_info > li {position: absolute; width: 130px; }
-.portfolio_rightbox > .portfolio_info > li:first-child {top: 38px; left: 0px; }
-.portfolio_rightbox > .portfolio_info > li:nth-child(2) {top: 64px; left:0px; }
-.portfolio_rightbox > .portfolio_info > li:nth-child(3) {top: 210px; left: 0px; }
+.portfolio_rightbox > .portfolio_info > li:first-child {top: 88px; left: 0px; }
+.portfolio_rightbox > .portfolio_info > li:nth-child(2) {top: 124px; left:0px; }
+.portfolio_rightbox > .portfolio_info > li:nth-child(3) {top: 210px; left: 0px;  display: none;}
 
 
 .portfolio_rightbox > .portfolio_info > li > p {font-weight: bold; font-size: 11px; width: 100px;  border-left: 5px solid #2b82a0; text-indent: 5px; margin-bottom: 0px; }
 
 .portfolio_rightbox > .portfolio_info > li > span { position: relative; left:93px; top: -20px; font-size: 11px; display: inline-block; width: 180px; }
 
-.portfolio_rightbox > a> button {position: absolute; top: 278px; left: 0px; display: block; border: none; width:100%; height: 34px;  border-radius: 10px; font-size: 13px; color: white; background: #2b82a0; cursor: pointer}
+.portfolio_rightbox > a> button {position: absolute; top: 5px; left: 10px; display: block; border: none; width:90%; height: 30px;  border-radius: 10px; font-size: 13px; color: white; background: #2b82a0; cursor: pointer}
 
 .portfolio_rightbox > a > button:hover {transform: scale(1.01)}
 
@@ -1394,25 +1373,26 @@
 #portfolio2_inner .portfolio_leftbox {width: 90%;  height: 95vh; position: absolute; top: 10vh; left: 2vh; }
 
 
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .main_pic {   background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
 
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox {width: 90%; display: grid; grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;  grid-auto-rows: 54px 54px 54px 30px 20px; grid-column-gap: 3px; grid-row-gap: 2px; max-width: 400px; position: relative; left: 50%; transform: translateX(-50%)}
-
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 7;  background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
-
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/201coupang_intro.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic1 {   background: #aaa;background: url(../images009/201coupang_intro.png)no-repeat center; background-size: contain;}
     
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic2 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/202_coupangplay.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic2 {background: #aaa;background: url(../images009/202_coupangplay.png)no-repeat center; background-size: contain;}
     
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/203_coupangplay_bike.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic3 { background: #aaa;background: url(../images009/203_coupangplay_bike.png)no-repeat center; background-size: contain;}
     
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 4; grid-column-end: 5; background: #aaa;background: url(../images009/204coupangplay_beer.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic4 { background: #aaa;background: url(../images009/204coupangplay_beer.png)no-repeat center; background-size: contain;}
     
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 5; grid-column-end: 6; background: #aaa;background: url(../images009/205coupangplay_heart.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic5 { background: #aaa;background: url(../images009/205coupangplay_heart.png)no-repeat center; background-size: contain;}
     
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 6; grid-column-end: 7; background: #aaa;background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 { background: #aaa;background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
 
 
+/*footer*/
 
+#footer { position: relative; width: 100%; height: 5vh; clear: both; overflow: hidden;}
+
+#footer > p {width: 100%; height: 5vh; line-height: 5vhpx; text-align: center; background: #004E67; color: white; font-size: 11px;}
     
 
     
