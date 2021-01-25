@@ -43,12 +43,12 @@
                 try {
                 var prev = $(this).prev().offset().top;
                     }catch(e){return false;}
-                $("html,body").stop().animate({"scrollTop":prev},1000);
+                $("html,body").stop().animate({"scrollTop":prev},800);
             } else if (d<0){
                 try{
                 var next = $(this).next().offset().top;
                     }catch(e){return false;}
-                $("html,body").stop().animate({"scrollTop":next},1000);
+                $("html,body").stop().animate({"scrollTop":next},800);
             }
             });
             $(window).scroll(function(){
@@ -85,7 +85,7 @@
            </div>
            <div id="top_menu">
                <ul id="gnb">
-                    <li><a href="main_display">HOME</a></li>
+                    <li class="on"><a href="main_display" >HOME</a></li>
                     <li><a href="#profile_box">PROFILE</a></li>
                     <li><a href="#skill_wrap">SKILLS</a></li>
                     <li><a href="#portfolio_wrap">PORTFOLIO</a></li>
@@ -473,11 +473,11 @@
                    <ul class="portfolio_info">
                       <li class="portfolio_sec">
                           <p>프로젝트 기간</p>
-                          <span>2021.12 - 2020.01 (총 38시간 소요)</span>
+                          <span>2020.01 (총 30시간 소요)</span>
                       </li>
                       <li class="portfolio_sec">
                           <p>설명</p>
-                          <span>준비중입니다.</span>
+                          <span>코로나 시대 '방구석 대특집' 이라는 주제로 영화 4편을 선정하여 OCN 영화 라인업을 구성해보았습니다. 각각의 영화마다 대표되는 색상을 사용하였으며, 태그를 사용하여 영화의 스토리를 재미있고 간략하게 표현했습니다.  </span>
                       </li>
                       <li class="portfolio_sec">
                           <p>작업툴</p>
@@ -485,12 +485,14 @@
                               Adobe Photoshop 2020 <br>
                               Adobe Illustrator 2020 <br>
                               Adobe After Effect 2020 <br>
-                              Adobe Audition <br>
+                              Cinema 4D <br>
                           </span>
                        </li>
                    </ul>   
                    
-                   <a href="https://player.vimeo.com/video/497449500?autoplay=1&color=ffffff" class="portfolio_btn"><button >CLICK TO PLAY</button></a>
+                   
+                   
+                   <a href="https://player.vimeo.com/video/504200958?autoplay=1" class="portfolio_btn"><button >CLICK TO PLAY</button></a>
                     
                 </div>
                 
@@ -655,6 +657,49 @@
                      $("#portfolio2_inner .sub_pic6").click(function(){
                          $("#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > div").css('opacity','100%')
                          $("#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .main_pic").css({'background-image':'url(images009/206_coupang_ending.png)'});
+                         $(this).css('opacity','50%');
+                     });           
+                                  });
+                 $(document).ready(function(){
+                    
+                     
+                    
+                     $("#portfolio3_inner .sub_pic1").click(function(){
+                         $("#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > div").css('opacity','100%')
+                         $("#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > .main_pic").css({'background-image':'url(images009/301movie_intro.png)'});
+                         $(this).css('opacity','50%');
+                         
+                         });    
+                        
+                    
+                     $("#portfolio3_inner .sub_pic2").click(function(){
+                         $("#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > div").css('opacity','100%')
+                         $("#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > .main_pic").css({'background-image':'url(images009/302_movielinup_opening.png)'});
+                         $(this).css('opacity','50%');
+                     });             
+                    
+                     $("#portfolio3_inner .sub_pic3").click(function(){
+                         $("#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > div").css('opacity','100%')
+                         $("#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > .main_pic").css({'background-image':'url(images009/303_movielineup_title.png)'});
+                         $(this).css('opacity','50%');
+                     });           
+                    
+                     $("#portfolio3_inner .sub_pic4").click(function(){
+                         
+                        $("#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > div").css('opacity','100%')
+                         $("#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > .main_pic").css({'background-image':'url(images009/304movielineup_story.png)'});
+                         $(this).css('opacity','50%');
+                     });           
+                    
+                     $("#portfolio3_inner .sub_pic5").click(function(){
+                         $("#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > div").css('opacity','100%')
+                         $("#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > .main_pic").css({'background-image':'url(images009/305movielineup_ending.png)'});
+                         $(this).css('opacity','50%');
+                     });           
+                    
+                     $("#portfolio3_inner .sub_pic6").click(function(){
+                         $("#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > div").css('opacity','100%')
+                         $("#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > .main_pic").css({'background-image':'url(images009/306_movielineup_endinglogo.png)'});
                          $(this).css('opacity','50%');
                      });           
                                   });
