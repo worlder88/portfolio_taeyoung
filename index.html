@@ -321,13 +321,22 @@
                </ul>
                  
                  
+<!--    portfolio_title menu-->
+                 
+                 
             <script>
                 $(document).ready(function(){
+                    
+             
+                    
+                    
+                    
                     
                     $(".portfolio_title1").click(function(){
                         $("#portfolio_wrap > li").hide()
                         $("#portfolio_wrap > #portfolio1_inner").show()
                         $("#portfolio_wrap > ul > li").css('background','#2b82a0')
+                         $("#portfolio1_inner > .portfolio_leftbox > .portfolio_picbox > .main_pic").css({'background-image':'url(images009/01luda.png)'});
                         $(this).css('background','#28B8B6')
                     });
                     
@@ -335,12 +344,14 @@
                         $("#portfolio_wrap >  li").hide()
                         $("#portfolio_wrap > #portfolio2_inner").show()
                         $("#portfolio_wrap > ul > li").css('background','#2b82a0')
+                        $("#portfolio2_inner > .portfolio_leftbox > .portfolio_picbox > .main_pic").css({'background-image':'url(images009/206_coupang_ending.png)'});
                         $(this).css('background','#28B8B6')
                     });
                     $(".portfolio_title3").click(function(){
                         $("#portfolio_wrap > li").hide()
                         $("#portfolio_wrap > #portfolio3_inner").show()
                         $("#portfolio_wrap > ul > li").css('background','#2b82a0')
+                        $("#portfolio3_inner > .portfolio_leftbox > .portfolio_picbox > .main_pic").css({'background-image':'url(images009/301movie_intro.png)'});
                         $(this).css('background','#28B8B6')
                     });
                      $(".portfolio_title4").click(function(){
