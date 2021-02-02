@@ -217,15 +217,15 @@
 .portfolio_leftbox > .portfolio_picbox > div:first-child {cursor:default;}
 .portfolio_leftbox > .portfolio_picbox > div {cursor: pointer;}
 
-.portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 4;  background-image: url(../images009/01luda.png);
+.portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 4;  background-image: url(../images009/401jyp_intro.png);
     background-repeat: no-repeat; background-position: center; background-size: contain; background-color: #fff; }
 
-.portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/01luda.png)no-repeat center; background-size: contain; background-color: gainsboro; }
-.portfolio_leftbox >  .portfolio_picbox > .sub_pic2 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/02yeoruem.png)no-repeat center; background-size: contain; background-color: gainsboro;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/03subin.png)no-repeat center; background-size: contain;  background-color: gainsboro;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/04dayoung.png)no-repeat center; background-size: contain;  background-color: gainsboro;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/05chocome.png)no-repeat center; background-size: contain;  background-color: gainsboro;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/06ending.png)no-repeat center; background-size: contain;  background-color: gainsboro;}
+.portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/401jyp_intro.png)no-repeat center; background-size: contain; background-color: gainsboro; }
+.portfolio_leftbox >  .portfolio_picbox > .sub_pic2 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/402_newspaper.png)no-repeat center; background-size: contain; background-color: gainsboro;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/403_circle.png)no-repeat center; background-size: contain;  background-color: gainsboro;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/404_niziu.png)no-repeat center; background-size: contain;  background-color: gainsboro;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/405_jypmap.png)no-repeat center; background-size: contain;  background-color: gainsboro;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/406_think.png)no-repeat center; background-size: contain;  background-color: gainsboro;}
 
 
 
@@ -266,15 +266,15 @@
 
 #portfolio2_inner .portfolio_leftbox > .portfolio_picbox {grid-row-gap: 0px;grid-column-gap: 0px;}
 
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .main_pic {   background-image: url(../images009/206_coupang_ending.png);
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .main_pic {   background-image: url(../images009/306_movielineup_endinglogo.png);
     background-repeat: no-repeat; background-position: center; background-size: contain;}
 
-#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {     background: #aaa;background: url(../images009/201coupang_intro.png)no-repeat center; background-size: contain; }
-#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic2 { background: #aaa;background: url(../images009/202_coupangplay.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic3 {background: #aaa;background: url(../images009/203_coupangplay_bike.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic4 {background: #aaa;background: url(../images009/204coupangplay_beer.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic5 { background: #aaa;background: url(../images009/205coupangplay_heart.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 { background: #aaa;background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {     background: #aaa;background: url(../images009/301movie_intro.png)no-repeat center; background-size: contain; }
+#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic2 { background: #aaa;background: url(../images009/302_movielinup_opening.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic3 {background: #aaa;background: url(../images009/303_movielineup_title.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic4 {background: #aaa;background: url(../images009/304movielineup_story.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic5 { background: #aaa;background: url(../images009/305movielineup_ending.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 { background: #aaa;background: url(../images009/306_movielineup_endinglogo.png)no-repeat center; background-size: contain;}
 
 
 
@@ -285,15 +285,15 @@
 
 #portfolio3_inner .portfolio_leftbox > .portfolio_picbox {grid-row-gap: 0px;grid-column-gap: 0px;}
 
-#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > .main_pic {   background-image: url(../images009/301movie_intro.png);
+#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > .main_pic {   background-image: url(../images009/206_coupang_ending.png);
     background-repeat: no-repeat; background-position: center; background-size: contain;}
 
-#portfolio3_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {     background: #aaa;background: url(../images009/301movie_intro.png)no-repeat center; background-size: contain; }
-#portfolio3_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic2 { background: #aaa;background: url(../images009/302_movielinup_opening.png)no-repeat center; background-size: contain;}
-#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic3 {background: #aaa;background: url(../images009/303_movielineup_title.png)no-repeat center; background-size: contain;}
-#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic4 {background: #aaa;background: url(../images009/304movielineup_story.png)no-repeat center; background-size: contain;}
-#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic5 { background: #aaa;background: url(../images009/305movielineup_ending.png)no-repeat center; background-size: contain;}
-#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 { background: #aaa;background: url(../images009/306_movielineup_endinglogo.png)no-repeat center; background-size: contain;}
+#portfolio3_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {     background: #aaa;background: url(../images009/201coupang_intro.png)no-repeat center; background-size: contain; }
+#portfolio3_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic2 { background: #aaa;background: url(../images009/202_coupangplay.png)no-repeat center; background-size: contain;}
+#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic3 {background: #aaa;background: url(../images009/203_coupangplay_bike.png)no-repeat center; background-size: contain;}
+#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic4 {background: #aaa;background: url(../images009/204coupangplay_beer.png)no-repeat center; background-size: contain;}
+#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic5 { background: #aaa;background: url(../images009/205coupangplay_heart.png)no-repeat center; background-size: contain;}
+#portfolio3_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 { background: #aaa;background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
 
 
 /*portfolio page4*/
@@ -303,15 +303,15 @@
 
 #portfolio4_inner .portfolio_leftbox > .portfolio_picbox {grid-row-gap: 0px;grid-column-gap: 0px;}
 
-#portfolio4_inner .portfolio_leftbox > .portfolio_picbox > .main_pic {   background-image: url(../images009/301movie_intro.png);
+#portfolio4_inner .portfolio_leftbox > .portfolio_picbox > .main_pic {   background-image: url(../images009/01luda.png);
     background-repeat: no-repeat; background-position: center; background-size: contain;}
 
-#portfolio4_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {     background: #aaa;background: url(../images009/301movie_intro.png)no-repeat center; background-size: contain; }
-#portfolio4_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic2 { background: #aaa;background: url(../images009/302_movielinup_opening.png)no-repeat center; background-size: contain;}
-#portfolio4_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic3 {background: #aaa;background: url(../images009/303_movielineup_title.png)no-repeat center; background-size: contain;}
-#portfolio4_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic4 {background: #aaa;background: url(../images009/304movielineup_story.png)no-repeat center; background-size: contain;}
-#portfolio4_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic5 { background: #aaa;background: url(../images009/305movielineup_ending.png)no-repeat center; background-size: contain;}
-#portfolio4_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 { background: #aaa;background: url(../images009/306_movielineup_endinglogo.png)no-repeat center; background-size: contain;}
+#portfolio4_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {     background: #aaa;background: url(../images009/01luda.png)no-repeat center; background-size: contain; }
+#portfolio4_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic2 { background: #aaa;background: url(../images009/02yeoruem.png)no-repeat center; background-size: contain;}
+#portfolio4_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic3 {background: #aaa;background: url(../images009/03subin.png)no-repeat center; background-size: contain;}
+#portfolio4_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic4 {background: #aaa;background: url(../images009/04dayoung.png)no-repeat center; background-size: contain;}
+#portfolio4_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic5 { background: #aaa;background: url(../images009/05chocome.png)no-repeat center; background-size: contain;}
+#portfolio4_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 { background: #aaa;background: url(../images009/06ending.png)no-repeat center; background-size: contain;}
 
 
 
@@ -525,15 +525,15 @@
 .portfolio_leftbox > .portfolio_picbox > div:first-child {cursor:default;}
 .portfolio_leftbox > .portfolio_picbox > div {cursor: pointer;}
 
-.portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 3; grid-column-start: 1; grid-column-end: 4;  background-image: url(../images009/01luda.png);
+.portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 3; grid-column-start: 1; grid-column-end: 4;  background-image: url(../images009/401jyp_intro.png);
     background-repeat: no-repeat; background-position: center; background-size: contain;}
 
-.portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 3; grid-row-end: 4; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/01luda.png)no-repeat center; background-size: contain; }
-.portfolio_leftbox >  .portfolio_picbox > .sub_pic2 {grid-row-start: 3; grid-row-end: 4; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/02yeoruem.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/03subin.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/04dayoung.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/05chocome.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/06ending.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 3; grid-row-end: 4; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/401jyp_intro.png)no-repeat center; background-size: contain; }
+.portfolio_leftbox >  .portfolio_picbox > .sub_pic2 {grid-row-start: 3; grid-row-end: 4; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/402_newspaper.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/403_circle.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/404_niziu.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/405_jypmap.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/406_think.png)no-repeat center; background-size: contain;}
 
 
 .portfolio_rightbox {width: 48%; height: 80vh;  position: absolute; top: -3vh; left: 51%; overflow: hidden;}
@@ -566,19 +566,19 @@
 
 #portfolio2_inner > div > div > div {}
 
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .main_pic {  background-image: url(../images009/206_coupang_ending.png);
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .main_pic {  background-image: url(../images009/301movie_intro.png);
     background-repeat: no-repeat; background-position: center; background-size: contain;}
 
-#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {  background: #aaa;background: url(../images009/201coupang_intro.png)no-repeat center; background-size: contain; } 
+#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {  background: #aaa;background: url(../images009/301movie_intro.png)no-repeat center; background-size: contain; } 
 #portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic2 {    
- background: #aaa; background: url(../images009/202_coupangplay.png)no-repeat center; background-size: contain;}
+ background: #aaa; background: url(../images009/302_movielinup_opening.png)no-repeat center; background-size: contain;}
 #portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic3 
-{ background: #aaa;background: url(../images009/203_coupangplay_bike.png)no-repeat center; background-size: contain;}
+{ background: #aaa;background: url(../images009/303_movielineup_title.png)no-repeat center; background-size: contain;}
 #portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic4 
-{ background: #aaa;background: url(../images009/204coupangplay_beer.png)no-repeat center; background-size: contain;}
+{ background: #aaa;background: url(../images009/304movielineup_story.png)no-repeat center; background-size: contain;}
 #portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic5 
-{ background: #aaa;background: url(../images009/205coupangplay_heart.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 {background: #aaa;background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
+{ background: #aaa;background: url(../images009/305movielineup_ending.png)no-repeat center; background-size: contain;}
+#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 {background: #aaa;background: url(../images009/306_movielineup_endinglogo.png)no-repeat center; background-size: contain;}
     
     
     
@@ -787,15 +787,15 @@
 .portfolio_leftbox > .portfolio_picbox > div:first-child {cursor:default;}
 .portfolio_leftbox > .portfolio_picbox > div {cursor: pointer;}
 
-.portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 4;  background-image: url(../images009/01luda.png);
+.portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 4;  background-image: url(../images009/401jyp_intro.png);
     background-repeat: no-repeat; background-position: center; background-size: contain;}
 
-.portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/01luda.png)no-repeat center; background-size: contain; }
-.portfolio_leftbox >  .portfolio_picbox > .sub_pic2 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/02yeoruem.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/03subin.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/04dayoung.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/05chocome.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/06ending.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/401jyp_intro.png)no-repeat center; background-size: contain; }
+.portfolio_leftbox >  .portfolio_picbox > .sub_pic2 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/402_newspaper.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/403_circle.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/404_niziu.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/405_jypmap.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/406_think.png)no-repeat center; background-size: contain;}
 
 
 .portfolio_rightbox {width: 85%; height: 39vh; position: absolute; top: 43%; left: 50%; transform: translateX(-50%); overflow: hidden;}
@@ -826,52 +826,7 @@
 
 #footer > p {width: 100%;  text-align: center; background: #004E67; color: white; font-size: 12px;}
     
-    
-/*portfolio page2 */
 
-
-
-#portfolio_leftbox {width: 90%;  height: 87vh; position: absolute; top: 3vh; left: 2vh; }
-
-
-
-#portfolio_leftbox > #portfolio_picbox {width: 100%; display: grid; grid-template-columns: 33.33% 33.33% 33.33%; grid-auto-rows: 70px 70px 70px 71px 71px; grid-column-gap: 1px; grid-row-gap: 6px; max-width: 400px; position: relative; left: 50%; transform: translateX(-50%);  }
-
-#portfolio_leftbox > #portfolio_picbox > div:first-child {cursor:default;}
-#portfolio_leftbox > #portfolio_picbox > div {cursor: pointer;}
-
-#portfolio_leftbox > #portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 4;  background-image: url(../images009/206_coupang_ending.png);
-    background-repeat: no-repeat; background-position: center; background-size: contain;}
-
-#portfolio_leftbox >  #portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/201coupang_intro.png)no-repeat center; background-size: contain; }
-#portfolio_leftbox >  #portfolio_picbox > .sub_pic2 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/202_coupangplay.png)no-repeat center; background-size: contain;}
-#portfolio_leftbox > #portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/203_coupangplay_bike.png)no-repeat center; background-size: contain;}
-#portfolio_leftbox > #portfolio_picbox > .sub_pic4 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/204coupangplay_beer.png)no-repeat center; background-size: contain;}
-#portfolio_leftbox > #portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/205coupangplay_heart.png)no-repeat center; background-size: contain;}
-#portfolio_leftbox > #portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
-
-
-#portfolio_rightbox {width: 85%; height: 39vh; position: absolute; top: 56%; left: 50%; transform: translateX(-50%); overflow: hidden;}
-
-#portfolio_rightbox > .portfolio_info_title {width: 90%; height: 25px; text-align: left; font-size: 15px; border-bottom: 2px solid #2b82a0; color: #2b82a0;  margin-left: 0px; top: 15px; }
-
-
-#portfolio_rightbox > #portfolio_info { width: 90%; margin-top: 0px; padding-left: 30px}
-#portfolio_rightbox > #portfolio_info > li {position: absolute;  }
-#portfolio_rightbox > #portfolio_info > li:first-child {top: 53px; left: 0px; }
-#portfolio_rightbox > #portfolio_info > li:nth-child(2) {top: 85px; left:0px; }
-#portfolio_rightbox > #portfolio_info > li:nth-child(3) {top: 205px; left: 0px; }
-
-
-#portfolio_rightbox > #portfolio_info > li > p {font-weight: bold; font-size: 13px; width: 130px;  border-left: 5px solid #2b82a0; text-indent: 10px; margin-bottom: 0px; }
-
-#portfolio_rightbox > #portfolio_info > li > span { position: relative; left:130px; top: -20px; font-size: 12px; display: inline-block; width: 260px; }
-
-#portfolio_rightbox > a>  button {position: absolute; top: 300px; left: 20px; display: block; border: none; width:90%; height: 40px;  border-radius: 10px; font-size: 16px; color: white; background: #2b82a0; cursor: pointer}
-
-#portfolio_rightbox > a> button:hover {transform: scale(1.01)}
-
-#portfolio_rightbox > a> button:focus { outline: none;}
     
 /*footer*/
 
@@ -1093,14 +1048,14 @@
 
 .portfolio_leftbox > .portfolio_picbox {width: 100%; display: grid; grid-template-columns: 33.33% 33.33% 33.33%;  grid-auto-rows: 65px 65px 65px 60px 60px;  grid-column-gap: 0px; grid-row-gap: 0px; max-width: 300px; position: relative; left: 50%; transform: translateX(-50%)}
 
-.portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 4;  background: url(../images009/01luda.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 4;  background: url(../images009/401jyp_intro.png)no-repeat center; background-size: contain;}
 
-.portfolio_leftbox > .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/01luda.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic2 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/02yeoruem.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/03subin.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/04dayoung.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/05chocome.png)no-repeat center; background-size: contain;}
-.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/06ending.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/401jyp_intro.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic2 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/402_newspaper.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/403_circle.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/404_niziu.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/405_jypmap.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/406_think.png)no-repeat center; background-size: contain;}
 
 
 .portfolio_rightbox {width: 85%; height: 46vh; position: absolute; top: 48%; left: 50%; transform: translateX(-50%); overflow: hidden;}
@@ -1125,26 +1080,7 @@
 
 .portfolio_rightbox > a> button:focus { outline: none;}
     
-    
-
-/*portfolio page2 */
-
-
-
-#portfolio2_inner .portfolio_leftbox {width: 90%;  height: 95vh; position: absolute; top: 4vh; left: 2vh; }
-
-
-
-
-
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .main_pic {   background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
-
-#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic1 {;   background: #aaa;background: url(../images009/201coupang_intro.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox >  .portfolio_picbox > .sub_pic2 { background: #aaa;background: url(../images009/202_coupangplay.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic3 {background: #aaa;background: url(../images009/203_coupangplay_bike.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic4 { background: #aaa;background: url(../images009/204coupangplay_beer.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic5 { background: #aaa;background: url(../images009/205coupangplay_heart.png)no-repeat center; background-size: contain;}
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 { background: #aaa;background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
+ 
 
 
 
@@ -1373,19 +1309,19 @@
 
 .portfolio_leftbox > .portfolio_picbox {width: 86%; display: grid; grid-template-columns: 33.33% 33.33% 33.33% ;  grid-auto-rows: 50px 50px 50px 50px 50px; grid-column-gap: 0px; grid-row-gap: 0px; max-width: 290px; position: relative; left: 50%; transform: translateX(-50%)}
     
-.portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 7;  background: url(../images009/01luda.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .main_pic { grid-row-start: 1; grid-row-end: 4; grid-column-start: 1; grid-column-end: 7;  background: url(../images009/401jyp_intro.png)no-repeat center; background-size: contain;}
     
-.portfolio_leftbox > .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/01luda.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic1 {padding:  grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2;   background: #aaa;background: url(../images009/401jyp_intro.png)no-repeat center; background-size: contain;}
     
-.portfolio_leftbox > .portfolio_picbox > .sub_pic2 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/02yeoruem.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic2 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/402_newspaper.png)no-repeat center; background-size: contain;}
     
-.portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/03subin.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/403_circle.png)no-repeat center; background-size: contain;}
     
-.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/04dayoung.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic4 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 1; grid-column-end: 2; background: #aaa;background: url(../images009/404_niziu.png)no-repeat center; background-size: contain;}
     
-.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/05chocome.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic5 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 2; grid-column-end: 3; background: #aaa;background: url(../images009/405_jypmap.png)no-repeat center; background-size: contain;}
     
-.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/06ending.png)no-repeat center; background-size: contain;}
+.portfolio_leftbox > .portfolio_picbox > .sub_pic6 {grid-row-start: 5; grid-row-end: 6; grid-column-start: 3; grid-column-end: 4; background: #aaa;background: url(../images009/406_think.png)no-repeat center; background-size: contain;}
 
 
 .portfolio_rightbox {width: 85%; height: 48vh; position: absolute; top: 48%; left: 50%; transform: translateX(-50%); overflow: hidden;}
@@ -1411,28 +1347,7 @@
 .portfolio_rightbox > a> button:focus { outline: none;}
     
     
-    
-/*portfolio page2 */
 
-
-
-
-#portfolio2_inner .portfolio_leftbox {width: 90%;  height: 95vh; position: absolute; top: 10vh; left: 2vh; }
-
-
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .main_pic {   background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
-
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic1 {   background: #aaa;background: url(../images009/201coupang_intro.png)no-repeat center; background-size: contain;}
-    
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic2 {background: #aaa;background: url(../images009/202_coupangplay.png)no-repeat center; background-size: contain;}
-    
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic3 { background: #aaa;background: url(../images009/203_coupangplay_bike.png)no-repeat center; background-size: contain;}
-    
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic4 { background: #aaa;background: url(../images009/204coupangplay_beer.png)no-repeat center; background-size: contain;}
-    
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic5 { background: #aaa;background: url(../images009/205coupangplay_heart.png)no-repeat center; background-size: contain;}
-    
-#portfolio2_inner .portfolio_leftbox > .portfolio_picbox > .sub_pic6 { background: #aaa;background: url(../images009/206_coupang_ending.png)no-repeat center; background-size: contain;}
 
 
 /*footer*/
