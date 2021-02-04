@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css009/reset009.css">
     <link rel="stylesheet" href="css009/index009.css">
     <link rel="stylesheet" href="css009/colorbox.css">
+    <link rel="stylesheet" href="css009/swiper.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d450b0e232.js" crossorigin="anonymous"></script>
@@ -33,12 +34,12 @@
                 check =i;
                 var top = i*ht;
                 
-                $("html,body").stop().animate({scrollTop:top},1000);
+                $("html,body").stop().animate({scrollTop:top},800);
                 $("#gnb li").removeClass();
                 $("#gnb li").eq(i).addClass("on");
             });
             
-            $("#main_display, #profile_box, #skill_wrap, #portfolio_wrap").mousewheel(function(e,d){
+            $("#main_display, #profile_box, #skill_wrap, #portfolio_wrap, .swiper-container").mousewheel(function(e,d){
                 if(d>0){
                 try {
                 var prev = $(this).prev().offset().top;
@@ -71,6 +72,10 @@
                     $("#gnb li").removeClass();
                     $("#gnb li").eq(3).addClass("on");
                 }
+                if(scroll>ht*4 && scroll<ht*5){
+                    $("#gnb li").removeClass();
+                    $("#gnb li").eq(4).addClass("on");
+                }
                 }
             });
         });
@@ -88,7 +93,8 @@
                     <li class="on"><a href="main_display" >HOME</a></li>
                     <li><a href="#profile_box">PROFILE</a></li>
                     <li><a href="#skill_wrap">SKILLS</a></li>
-                    <li><a href="#portfolio_wrap">PORTFOLIO</a></li>
+                    <li><a href="#portfolio_wrap">MOTIONGRAPHIC</a></li>
+                    <li><a href=".swiper-container">WEBDESIGN</a></li>
                </ul>
            </div>
        </div>
@@ -335,31 +341,31 @@
                     $(".portfolio_title1").click(function(){
                         $("#portfolio_wrap > li").hide()
                         $("#portfolio_wrap > #portfolio1_inner").show()
-                        $("#portfolio_wrap > ul > li").css('background','#2b82a0')
+                        $("#portfolio_wrap > ul > li").css('background','#96C1BC')
                          $("#portfolio1_inner > .portfolio_leftbox > .portfolio_picbox > .main_pic").css({'background-image':'url(images009/401jyp_intro.png)'});
-                        $(this).css('background','#28B8B6')
+                        $(this).css('background','#F2A477')
                     });
                     
                     $(".portfolio_title2").click(function(){
                         $("#portfolio_wrap >  li").hide()
                         $("#portfolio_wrap > #portfolio2_inner").show()
-                        $("#portfolio_wrap > ul > li").css('background','#2b82a0')
+                        $("#portfolio_wrap > ul > li").css('background','#96C1BC')
                         $("#portfolio2_inner > .portfolio_leftbox > .portfolio_picbox > .main_pic").css({'background-image':'url(images009/301movie_intro.png)'});
-                        $(this).css('background','#28B8B6')
+                        $(this).css('background','#F2A477')
                     });
                     $(".portfolio_title3").click(function(){
                         $("#portfolio_wrap > li").hide()
                         $("#portfolio_wrap > #portfolio3_inner").show()
-                        $("#portfolio_wrap > ul > li").css('background','#2b82a0')
+                        $("#portfolio_wrap > ul > li").css('background','#96C1BC')
                         $("#portfolio3_inner > .portfolio_leftbox > .portfolio_picbox > .main_pic").css({'background-image':'url(images009/206_coupang_ending.png)'});
-                        $(this).css('background','#28B8B6')
+                        $(this).css('background','#F2A477')
                     });
                      $(".portfolio_title4").click(function(){
                         $("#portfolio_wrap >  li").hide()
                         $("#portfolio_wrap > #portfolio4_inner").show()
-                         $("#portfolio_wrap > ul > li").css('background','#2b82a0')
+                         $("#portfolio_wrap > ul > li").css('background','#96C1BC')
                          $("#portfolio3_inner > .portfolio_leftbox > .portfolio_picbox > .main_pic").css({'background-image':'url(images009/01luda.png)'});
-                        $(this).css('background','#28B8B6')
+                        $(this).css('background','#F2A477')
                     });
                     
                     
@@ -383,7 +389,7 @@
                 </div>
                 
                 <div class="portfolio_rightbox">
-                  <h3 class="portfolio_info_title">히스토리</h3>
+                  <h3 class="portfolio_info_title"> &nbsp 히스토리</h3>
                    <ul class="portfolio_info">
                       <li class="portfolio_sec">
                           <p>프로젝트 기간</p>
@@ -565,7 +571,7 @@
                  $(document).ready(function(){
                     var size = $('#wrap').width();
                     if (size > 767) {
-                            $(".portfolio_btn").colorbox({iframe:true, innerWidth:767, innerHeight:431});
+                            $(".portfolio_btn").colorbox({iframe:true, innerWidth:1280, innerHeight:760});
                     } else if (415 < size <=766){                               
                               $(".portfolio_btn").colorbox({iframe:true, innerWidth:350, innerHeight:197});
                     } else if (size <= 414){                               
@@ -575,7 +581,7 @@
                     $(window).resize(function(){
                         var size = $('#wrap').width();
                         if (size>767) {
-                                $(".portfolio_btn").colorbox({iframe:true, innerWidth:767, innerHeight:431});
+                                $(".portfolio_btn").colorbox({iframe:true, innerWidth:1280, innerHeight:760});
                         } else if (415 < size <=766){                               
                                   $(".portfolio_btn").colorbox({iframe:true, innerWidth:350, innerHeight:197});
                         } else if (size <= 414){                               
@@ -771,7 +777,65 @@
          </ul>
         
     
-       </div>
+      
+       
+    <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+       <h2>PORTFOLIO 1</h2>
+        
+         <div class="webpage_leftbox">
+             <img src="images009/mosquitar_monitor.png" alt="">
+             <img src="images009/ipad_mockup_mosquitar.png" alt="">
+             <img src="images009/iphone_mockup_mosquitar.png" alt="">
+         </div>
+         <div class="webpage_rightbox">
+             <h3><span>MOSQUITAR</span></h3>
+             <p><span class="pj_name">프로젝트명 :</span> <span class="pj_txt">모스키타 (MOSQUITAR)</span></p>
+             <p><span class="pj_name">소요시간 : </span><span class="pj_txt">2주</span></p>
+             <p><span class="pj_name">참여인원 : </span><span class="pj_txt">1명</span></p>
+             <p><span class="pj_name">제작페이지 : </span><span class="pj_txt"> Index, Log in, Sign in, instruments </span></p>
+             <p><span class="pj_name">사이트유형 : </span><span class="pj_txt"> 반응형 웹페이지</span></p>
+             <p><span class="pj_name">사용언어 : </span><span class="pj_txt"> HTML5, CSS3, JQUERY</span></p>
+             
+             <div>
+                 <a href="#"> VISIT WEBSITE </a>
+             </div>
+             
+         </div>
+      
+      </div>
+      <div class="swiper-slide">
+      
+      </div>
+      
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    
+      <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="../dist/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+         pagination: {
+        el: '.swiper-pagination',
+              clickable: true,
+      },
+    });
+  </script>
+       
+            </div>
+       
         <div id="footer">
                 <p>Copyrightⓒ2020. Taeyoung Lim All rights reserved</p>
             
