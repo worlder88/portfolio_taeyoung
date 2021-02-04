@@ -1223,11 +1223,11 @@
     
 /*header*/
 
-#header {width: 100%; height: 40px; background: #004E67 }
+#header {width: 100%; height: 40px; }
 
 /*logo*/
 
-#logo { color: #fff; position: fixed; left: 10px; top: 10px;}
+#logo { display: none; color: #fff; position: fixed; left: 10px; top: 10px;}
 
 /*top_menu*/
 
@@ -1403,7 +1403,7 @@
     
 
 .skill_graph_box {display: block; width: 95%; height: 40px; border: 3px soild #000; margin-top: -19px; margin-left: 5px;}
-.skill_graph_box > .skill_graph_inner {background: #96C1BC; height: 18px; margin-top: 7px}    
+.skill_graph_box > .skill_graph_inner {background: #96C1BC; height: 18px; margin-top: 6px}    
     
     
 
@@ -1468,7 +1468,7 @@
 
     .swiper-wrapper > .swiper-slide {display: flex; align-content: flex-start; align-content: center; flex-direction: column; align-items: center;}
     
- .swiper-wrapper > .swiper-slide > h2 {position: absolute; background: #F2A477; width: 80vw; height: 5vh;  top: 10vh; margin-bottom: 0.5vh; font-size: 15px; line-height: 5vh; color: #fff; border-radius: 10px; }   
+ .swiper-wrapper > .swiper-slide > h2 {position: absolute; background: #F2A477; width: 85vw; height: 5vh;  top: 10vh; margin-bottom: 0.5vh; font-size: 15px; line-height: 5vh; color: #fff; border-radius: 10px; }   
     
     
  .webpage_leftbox {width: 90vw; height: 30vh;  float: none;  box-sizing: content-box; margin-left:0px; position: relative; margin-top: 13vh; }
@@ -1479,11 +1479,11 @@
 
 
 
-.webpage_rightbox {width: 80vw; height: 40vh; background:; margin-top: 4vh; border: 3px solid #f2a477; float: left;}
+.webpage_rightbox {width: 85vw; height: 40vh; background:; margin-top: 4vh; border: 3px solid #f2a477; float: left;}
 .webpage_rightbox > h3 {color: #fff;  width:  height: 4vh; line-height: 4vh; font-size: 20px; margin-bottom: 20px; }
 .webpage_rightbox > h3 > span {background: #f2a477; display: inline-block; width: 40vw; font-size: 17px; height: 4.5vh; line-height: 4.5vh; margin-bottom: 0vh;}
 
-.webpage_rightbox > p {text-align: left; margin-left: 30px; margin-bottom: 1.5vh; font-size: 12px;}
+.webpage_rightbox > p {text-align: left; margin-left: 30px; margin-bottom: 1vh; font-size: 12px;}
 
 .webpage_rightbox  p > .pj_name {display: inline-block; width: 19vw; font-weight: bold; }
 
@@ -1491,7 +1491,7 @@
 
 /*.webpage_rightbox > div {background:#f2a477;  }*/
 
-.webpage_rightbox > div > a  {margin-top: 2vh; display: inline-block; width: 80%; height: 5vh; line-height: 5vh; color: white; background:#F2756B; font-size: 15px; font-weight: bold; border-radius: 8px;}   
+.webpage_rightbox > div > a  {margin-top: 3vh; display: inline-block; width: 80%; height: 5vh; line-height: 5vh; color: white; background:#F2756B; font-size: 15px; font-weight: bold; border-radius: 8px;}   
 
 
 
@@ -1500,7 +1500,7 @@
 
 #footer { position: relative; width: 100%; height: 5vh; clear: both; overflow: hidden;}
 
-#footer > p {width: 100%; height: 5vh; line-height: 5vhpx; text-align: center; background: #004E67; color: white; font-size: 11px;}
+#footer > p {width: 100%; height: 5vh; line-height: 5vhpx; text-align: center;  color: white; font-size: 11px;}
     
 
     
