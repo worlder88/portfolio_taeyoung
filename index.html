@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css009/swiper.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d450b0e232.js" crossorigin="anonymous"></script>
     <script src="js009/jquery-3.5.1.min.js"></script>
     <script src="js009/jquery.mousewheel.min.js"></script>
@@ -38,19 +39,23 @@
                 $("#gnb li").removeClass();
                 $("#gnb li").eq(i).addClass("on");
             });
-            
-            $("#main_display, #profile_box, #skill_wrap, #portfolio_wrap, .swiper-container").mousewheel(function(e,d){
-                if(d>0){
+            $(".box").mousewheel(function(e,d){
+                var moveTop;
+            if(d>0){ 
                 try {
-                var prev = $(this).prev().offset().top;
+                var moveTop = $(this).prev().offset().top;
                     }catch(e){return false;}
-                $("html,body").stop().animate({"scrollTop":prev},800);
+                
+               
             } else if (d<0){
                 try{
-                var next = $(this).next().offset().top;
+                var moveTop = $(this).next().offset().top;
                     }catch(e){return false;}
-                $("html,body").stop().animate({"scrollTop":next},800);
+                
             }
+
+            $("html,body").stop().animate({"scrollTop":moveTop},800);
+
             });
             $(window).scroll(function(){
                var ht =$(window).height();
@@ -103,7 +108,7 @@
        
        
        <div id="contents" >
-           
+           <div class="box">
               <div id="main_display" class="clear">
                 <div id="gray_box">
                    <div id="white_box">
@@ -123,7 +128,8 @@
                     </div>
               </div>
            </div>
-           
+           </div>
+           <div class="box">
            <div id="profile_box" >
               <div id="profile_inner">
               <div id="left_box">
@@ -197,6 +203,8 @@
               </div>
              </div> 
            </div>
+           </div>
+           <div class="box">
            
            <div id="skill_wrap">
               <div id="skill_inner">
@@ -316,7 +324,9 @@
                     </div>
                  </div>
             </div>
-            
+             </div>
+             
+             <div class="box">
             <ul id="portfolio_wrap">
                <ul>
                    <li class="portfolio_title1">JYP 히스토리</li>
@@ -325,6 +335,8 @@
                       <li class="portfolio_title4">프로모션</li>
                       <hr>
                </ul>
+                
+               
                  
                  
 <!--    portfolio_title menu-->
@@ -776,8 +788,9 @@
             
          </ul>
         
-    
+    </div>
       
+      <div class="box">
        
     <div class="swiper-container">
     <div class="swiper-wrapper">
@@ -807,7 +820,30 @@
       </div>
       <div class="swiper-slide">
       
+      <h2>PORTFOLIO 2</h2>
+        
+         <div class="webpage_leftbox">
+             <img src="images009/travellovers_monitor.png" alt="">
+            
+         </div>
+         <div class="webpage_rightbox">
+             <h3><span>TRAVEL LOVERS</span></h3>
+             <p><span class="pj_name">프로젝트명 :</span> <span class="pj_txt">모스키타 (MOSQUITAR)</span></p>
+             <p><span class="pj_name">소요시간 : </span><span class="pj_txt">1주</span></p>
+             <p><span class="pj_name">참여인원 : </span><span class="pj_txt">1명</span></p>
+             <p><span class="pj_name">제작페이지 : </span><span class="pj_txt"> Index </span></p>
+             <p><span class="pj_name">사이트유형 : </span><span class="pj_txt">PC 전용 웹페이지</span></p>
+             <p><span class="pj_name">사용언어 : </span><span class="pj_txt"> HTML5, CSS3</span></p>
+             
+             <div>
+                 <a href="#"> VISIT WEBSITE </a>
+             </div>
+             
+         </div>
+     
+      
       </div>
+      
       
     </div>
     <!-- Add Arrows -->
@@ -833,18 +869,19 @@
       },
     });
   </script>
+      </div> 
+  </div>
        
-            </div>
        
         <div id="footer">
                 <p>Copyrightⓒ2020. Taeyoung Lim All rights reserved</p>
             
-            </div>   
+         </div>   
          
                  
-  </div>
+       </div>
         
-   
+    </div>
            
     
 </body>

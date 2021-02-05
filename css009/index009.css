@@ -1,6 +1,6 @@
 .clear {clear: both; overflow: hidden;}
 
-#wrap {clear: both; }
+#wrap {clear: both; font-family: 'Nanum Gothic', sans-serif; }
 
 /*header*/
 
@@ -123,8 +123,8 @@
 
 #right_outer > .resume_right > p {font-size: 14px; margin-bottom: 10px; color: #666;}
 #right_outer > .resume_right > p:nth-child(5) {font-size: 14px; padding-left: 168px; padding-top: 10px;}
-#right_outer > .resume_right > p:nth-child(6) {margin-top: 33px;}
-#right_outer > .resume_right > p:nth-child(7) {margin-top: 113px;}
+#right_outer > .resume_right > p:nth-child(6) {margin-top: 44px;}
+#right_outer > .resume_right > p:nth-child(7) {margin-top: 103px;}
 #right_outer > .resume_right > p:nth-child(6) > span {display: block; font-weight: 100; margin-bottom: 5px; padding-left: 0px;}
 #right_outer > .resume_right > p> span { padding-left: 50px; font-size: 15px; font-weight: bold; }
 
@@ -363,11 +363,13 @@
 
 .webpage_rightbox {width: 40vw; height: 50vh; background:; margin-top: 10vh; border: 3px solid #f2a477; }
 .webpage_rightbox > h3 {color: #fff;  width:  height: 4vh; line-height: 4vh; font-size: 20px; margin-bottom: 50px; }
-.webpage_rightbox > h3 > span {background: #f2a477; display: inline-block; width: 12vw;}
+.webpage_rightbox > h3 > span {background: #f2a477; display: inline-block; width: 15vw; border-radius: 0px 0px 5px 5px;}
 
 .webpage_rightbox > p {text-align: left; margin-left: 30px; margin-bottom: 15px; font-size: 16px;}
 
 .webpage_rightbox  p > .pj_name {display: inline-block; width: 100px; font-weight: bold; }
+
+.webpage_rightbox p > .pj_txt { display: inline-block; width: 300px; position: absolute; }
 
 /*.webpage_rightbox > div {background:#f2a477;  }*/
 
@@ -633,7 +635,7 @@
 
 .webpage_rightbox {width: 62vw; height: 33vh; background:; margin-top: 10vh; border: 3px solid #f2a477; float: left;}
 .webpage_rightbox > h3 {color: #fff;  width:  height: 4vh; line-height: 4vh; font-size: 20px; margin-bottom: 20px; }
-.webpage_rightbox > h3 > span {background: #f2a477; display: inline-block; width: 18vw;}
+.webpage_rightbox > h3 > span {background: #f2a477; display: inline-block; width: 20vw;}
 
 .webpage_rightbox > p {text-align: left; margin-left: 30px; margin-bottom: 7px; font-size: 16px;}
 
@@ -899,14 +901,14 @@
 
 
 .webpage_rightbox {width: 80vw; height: 40vh; background:; margin-top: 4vh; border: 3px solid #f2a477; float: left;}
-.webpage_rightbox > h3 {color: #fff;  width:  height: 4vh; line-height: 4vh; font-size: 20px; margin-bottom: 20px; }
-.webpage_rightbox > h3 > span {background: #f2a477; display: inline-block; width: 40vw; font-size: 18px; height: 4vh; line-height: 4vh; margin-bottom: 2vh;}
+.webpage_rightbox > h3 {color: #fff; font-size: 20px; margin-bottom: 20px; }
+.webpage_rightbox > h3 > span {background: #f2a477; display: inline-block; width: 40vw; font-size: 18px; height: 4.5vh; line-height: 4.1vh; margin-bottom: 2vh; border-radius: 0px 0px 5px 5px;}
 
 .webpage_rightbox > p {text-align: left; margin-left: 30px; margin-bottom: 13px; font-size: 14px;}
 
 .webpage_rightbox  p > .pj_name {display: inline-block; width: 19vw; font-weight: bold; }
 
- .webpage_rightbox  p > .pj_txt {display: inline-block;  } 
+ .webpage_rightbox  p > .pj_txt {display: inline-block; width: 230px; } 
 
 /*.webpage_rightbox > div {background:#f2a477;  }*/
 
@@ -931,7 +933,7 @@
 /*모바일 large */
 
 
-@media screen and (min-width:376px) and (max-width:414px) {
+@media screen and (min-width:375px) and (max-width:414px) {
     
 /*header*/
 
@@ -1114,7 +1116,7 @@
 #skill_inner > div > div > div > ul > li > i {color:#FF7E05; }
     
 
-.skill_graph_box {display: block; width: 95%; height: 40px; border: 3px soild #000; margin-top: -21px; margin-left: 5px;}
+.skill_graph_box {display: block; width: 95%; height: 40px; border: 3px soild #000; margin-top: -17px; margin-left: 5px;}
 .skill_graph_box > .skill_graph_inner {background:#96C1BC; height: 18px; margin-top: 7px}    
     
     
@@ -1124,7 +1126,7 @@
 
 #portfolio_wrap { position: relative; width: 100vw; height: 100vh; clear: both; overflow: hidden; }
     
-#portfolio_wrap > ul > li {width: 90px; height: 30px; line-height: 30px; font-size: 10px; text-align: center;  color:#fff;   margin-top: 0px; margin-bottom: 50px; display: inline-block; position: relative; top: 65px; left: 12px; cursor: pointer; font-weight: bold; border-radius: 10px 10px 0px 0px;}
+#portfolio_wrap > ul > li {width: 80px; height: 30px; line-height: 30px; font-size: 10px; text-align: center;  color:#fff;   margin-top: 0px; margin-bottom: 50px; display: inline-block; position: relative; top: 65px; left: 12px; cursor: pointer; font-weight: bold; border-radius: 10px 10px 0px 0px;}
 .portfolio_title1 {}
 .portfolio_title2 {}
 .portfolio_title3 {}
@@ -1150,21 +1152,21 @@
 
 .portfolio_rightbox {width: 85%; height: 46vh; position: absolute; top: 48%; left: 50%; transform: translateX(-50%); overflow: hidden;}
 
-.portfolio_rightbox > .portfolio_info_title {width: 90%; height: 25px; text-align: left; font-size: 13px;    margin-left: 10px; top: 65px; }
+.portfolio_rightbox > .portfolio_info_title {width: 95%; height: 25px; text-align: left; font-size: 13px;    margin-left: 10px; top: 65px; }
 
 
-.portfolio_rightbox > .portfolio_info { width: 90%; margin-top: 10px; padding-left: 30px; }
+.portfolio_rightbox > .portfolio_info { width: 90%; margin-top: 30px; padding-left: 0px; }
 .portfolio_rightbox > .portfolio_info > li {position: absolute; width: 130px; }
 .portfolio_rightbox > .portfolio_info > li:first-child {top: 100px; left: 10px; }
 .portfolio_rightbox > .portfolio_info > li:nth-child(2) {top: 140px; left:10px; }
 .portfolio_rightbox > .portfolio_info > li:nth-child(3) {top: 260px; left: 10px; display: none;}
 
 
-.portfolio_rightbox > .portfolio_info > li > p {font-weight: bold; font-size: 12px; width: 100px;   text-indent: 10px; margin-bottom: 0px; }
+.portfolio_rightbox > .portfolio_info > li > p {font-weight: bold; font-size: 12px; width: 100px;   text-indent: 5px; margin-bottom: 0px; }
 
-.portfolio_rightbox > .portfolio_info > li > span { position: relative; left:114px; top: -20px; font-size: 11px; display: inline-block; width: 180px; }
+.portfolio_rightbox > .portfolio_info > li > span { position: relative; left:90px; top: -18px; font-size: 11px; display: inline-block; width: 180px; }
 
-.portfolio_rightbox > a> button {position: absolute; top: 10px; left: 7px; display: block; border: none; width:94.7%; height: 30px;  border-radius: 7px; font-size: 13px; color: white; cursor: pointer}
+.portfolio_rightbox > a> button {position: absolute; top: 10px; left: 0px; display: block; border: none; width:75vw; height: 30px;  border-radius: 7px; font-size: 13px; color: white; cursor: pointer}
 
 .portfolio_rightbox > a > button:hover {transform: scale(1.01)}
 
@@ -1188,7 +1190,7 @@
 
 
 
-.webpage_rightbox {width: 80vw; height: 40vh; background:; margin-top: 4vh; border: 3px solid #f2a477; float: left;}
+.webpage_rightbox {width: 90vw; height: 42vh; background:; margin-top: 4vh; border: 3px solid #f2a477; float: left;}
 .webpage_rightbox > h3 {color: #fff;  width:  height: 4vh; line-height: 4vh; font-size: 20px; margin-bottom: 20px; }
 .webpage_rightbox > h3 > span {background: #f2a477; display: inline-block; width: 40vw; font-size: 17px; height: 4.5vh; line-height: 4.5vh; margin-bottom: 0vh;}
 
@@ -1219,7 +1221,7 @@
 /*모바일 small */
 
 
-@media screen and  (max-width:375px) {
+@media screen and  (max-width:374px) {
     
 /*header*/
 
@@ -1373,7 +1375,7 @@
 #skill_inner > .skill_box3 {grid-row-start: 4; grid-row-end: 5; grid-column-start: 1; grid-column-end: 2; }
 
 #skill_inner > .skill_box1 > .skill_box1_inner {width: 90%; height: 40px; border: 4px solid #febc12; border-radius: 10px; margin: 0 auto; margin-top: 25px; }
-#skill_inner > .skill_box2 > .skill_box2_inner {width: 90%; height: 40px; border: 4px solid #febc12; border-radius: 10px; margin: 0 auto; margin-top: 15px;}
+#skill_inner > .skill_box2 > .skill_box2_inner {width: 90%; height: 40px; border: 4px solid #febc12; border-radius: 10px; margin: 0 auto; margin-top: 20px;}
 #skill_inner > .skill_box3 > .skill_box3_inner {width: 90%; height: 40px; border: 4px solid #febc12; border-radius: 10px; margin: 0 auto; margin-top: 15px;}
 
 
@@ -1387,9 +1389,9 @@
 #skill_inner > .skill_box6 {grid-row-start: 7; grid-row-end: 8; grid-column-start: 1; grid-column-end: 2; }
 
 
-#skill_inner > .skill_box4 > .skill_box4_inner {width: 90%; height: 40px; border: 4px solid #febc12; border-radius: 10px; margin: 0 auto; margin-top: 15px;}
-#skill_inner > .skill_box5 > .skill_box5_inner {width: 90%; height: 40px; border: 4px solid #febc12; border-radius: 10px; margin: 0 auto; margin-top: 15px;}
-#skill_inner > .skill_box6 > .skill_box6_inner {width: 90%; height: 100px; border: 4px solid #febc12; border-radius: 10px; margin: 0 auto; margin-top: 15px;}
+#skill_inner > .skill_box4 > .skill_box4_inner {width: 90%; height: 40px; border: 4px solid #febc12; border-radius: 10px; margin: 0 auto; margin-top: 12px;}
+#skill_inner > .skill_box5 > .skill_box5_inner {width: 90%; height: 40px; border: 4px solid #febc12; border-radius: 10px; margin: 0 auto; margin-top: 10px;}
+#skill_inner > .skill_box6 > .skill_box6_inner {width: 90%; height: 100px; border: 4px solid #febc12; border-radius: 10px; margin: 0 auto; margin-top: 5px;}
 
     #skill_inner > .skill_box6 > .skill_box6_inner > .mobile_text_box {display: block; font-size: 14px; margin-top: -10px; margin-left: 10px;}
     
