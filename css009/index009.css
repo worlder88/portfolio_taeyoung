@@ -11,7 +11,7 @@
 
 /*logo*/
 
-#logo {color: #fff; position: fixed; left: 20px; top: 14px;}
+#logo {color: #fff; position: fixed; left: 20px; top: 11px; width: 30px; height: 30px; text-indent: 99999px; z-index: 100; background-image: url(../images009/logo_white.png); background-size: contain; background-repeat: no-repeat; background-position: center;  }
 
 /*top_menu*/
 
@@ -396,7 +396,7 @@
 
 /*logo*/
 
-#logo {color: #999; position: fixed; left: 20px; top: 14px;}
+#logo {color: #999; position: fixed; left: 20px; top: 11px;}
 
 /*top_menu*/
 
@@ -664,7 +664,7 @@
 
 /*logo*/
 
-#logo {color: #fff; position: fixed; left: 20px; top: 14px;}
+#logo {color: #fff; position: fixed; left: 20px; top: 11px;}
 
 /*top_menu*/
 
@@ -943,15 +943,15 @@
 
 /*logo*/
 
-#logo {color: #fff; position: fixed; left: 20px; top: 14px;}
+#logo {color: #fff; position: fixed; width: 24px; height: 24px; left: 14px; top: 11px;}
 
 /*top_menu*/
 
 #top_menu {}
 
-#gnb {position: fixed; top: 12px; right: 10px;}
+#gnb {position: fixed; top: 12px; right: 11px;}
 
-#gnb > li { float: left; margin-right: 10px;   }
+#gnb > li { float: left; margin-right: 5px;   }
     
 
 #gnb > li:last-child {margin-right: 0px;}
@@ -1351,8 +1351,8 @@
 
 
 #right_outer > .contact_box { }
-#right_outer > .contact_box > div {position: absolute; top: 13px; margin-left: 13px; padding-left: 10px;  }
-#right_outer > .contact_box > div > p { margin-bottom: 3px; font-size: 11px;} 
+#right_outer > .contact_box > div {position: absolute; top: 13px; margin-left: 15px; padding-left: 10px; top: 12px;  }
+#right_outer > .contact_box > div > p { margin-bottom: -3px; font-size: 11px;} 
     
     
 /*skill box*/
@@ -1407,7 +1407,7 @@
     
 
 .skill_graph_box {display: block; width: 95%; height: 40px; border: 3px soild #000; margin-top: -19px; margin-left: 5px;}
-.skill_graph_box > .skill_graph_inner {background: #96C1BC; height: 18px; margin-top: 6px}    
+.skill_graph_box > .skill_graph_inner {background: #96C1BC; height: 18px; margin-top: 9px}    
     
     
 
